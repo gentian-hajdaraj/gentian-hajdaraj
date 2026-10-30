@@ -32,8 +32,14 @@ A research companion repository for a structured study of **6,000 observations**
 - [Dataset and methodology (Zenodo DOI)](https://doi.org/10.5281/zenodo.22640375)
 - [Citation guidance](https://github.com/gentian-hajdaraj/ai-search-visibility-italia/blob/main/CITING.md)
 
-**[Visibility Benchmark Lite — experimental](https://github.com/gentian-hajdaraj/ai-search-visibility-italia/pull/1)**  
-A small, browser-only tool for exploring **user-annotated** AI search observations with explicit denominators and separate measures for mentions, recommendations, and citations. **Currently in draft review**; includes synthetic example data, not the published study data.
+**[Visibility Benchmark Lite — public tool](https://github.com/gentian-hajdaraj/ai-search-visibility-italia/tree/main/tools/visibility-benchmark-lite)**  
+A small, browser-only tool for exploring **user-annotated** AI search observations with explicit denominators and separate measures for mentions, recommendations, and citations. Available as an open-source research companion; includes synthetic example data, not the published study data.
+
+### Open engineering skills
+
+A growing set of **original Agent Skills** for working with AI-generated code: evidence-first PR review, release regression gates, and safe open-source extraction.
+
+[Browse the skills and usage guide](AI-ENGINEERING-SKILLS.md).
 
 ### Areas of interest
 
