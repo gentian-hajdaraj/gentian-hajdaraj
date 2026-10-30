@@ -7,7 +7,7 @@ const dirs = readdirSync(root).filter((dir) => {
   const p = join(root, dir);
   return statSync(p).isDirectory();
 });
-assert.equal(dirs.length, 3, 'This release should contain three skills');
+assert.equal(dirs.length, 4, 'This release should contain four skills');
 const names = new Set();
 for (const dir of dirs) {
   const path = join(root, dir, 'SKILL.md');

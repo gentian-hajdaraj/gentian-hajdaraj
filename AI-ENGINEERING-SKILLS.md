@@ -1,14 +1,15 @@
 # AI Engineering Skills — first public edition
 
-Three **original, lightweight Agent Skills** built around a single engineering principle: **claims should be supported by observable evidence**.
+Four **original, lightweight Agent Skills** built around a single engineering principle: **claims should be supported by observable evidence**.
 
-They are written as standalone `SKILL.md` instructions using the open Agent Skills format. They are **not** copied from Matt Pocock's skills; the workflow focus comes from practical code review, controlled deployment and safe extraction of reusable tools.
+They are written as standalone `SKILL.md` instructions using the open Agent Skills format. They are **not** copied from Matt Pocock's skills; the workflow focus comes from practical code review, controlled deployment, safe open-source extraction and evidence-backed project handoffs.
 
 | Skill | Use when |
 |---|---|
 | [Evidence-first PR Review](.agents/skills/evidence-first-pr-review/SKILL.md) | Reviewing complex or AI-generated changes where a green test suite alone is insufficient |
 | [Release Regression Gate](.agents/skills/release-regression-gate/SKILL.md) | Deciding whether a code change can be safely shipped to staging or production |
 | [Safe Open Source Extraction](.agents/skills/safe-open-source-extraction/SKILL.md) | Publishing standalone tools derived from private business applications |
+| [Verified Agent Handoff](.agents/skills/verified-agent-handoff/SKILL.md) | Preserving checked progress, branch identity, CI results, and open risks between AI agents and long sessions |
 
 ## Use with Codex and other agents
 
