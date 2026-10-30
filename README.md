@@ -37,7 +37,7 @@ A small, browser-only tool for exploring **user-annotated** AI search observatio
 
 ### Open engineering skills
 
-A growing set of **original Agent Skills** for working with AI-generated code: evidence-first PR review, release regression gates, and safe open-source extraction.
+A growing set of **original Agent Skills** for working with AI-generated code: evidence-first PR review, release regression gates, safe open-source extraction, and verified handoffs between agents.
 
 [Browse the skills and usage guide](AI-ENGINEERING-SKILLS.md).
 
