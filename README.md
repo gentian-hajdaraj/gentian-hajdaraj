@@ -39,7 +39,7 @@ A small, browser-only tool for exploring **user-annotated** AI search observatio
 
 A growing set of **original Agent Skills** for working with AI-generated code: evidence-first PR review, release regression gates, safe open-source extraction, and verified handoffs between agents.
 
-[Browse the skills and usage guide](AI-ENGINEERING-SKILLS.md).
+**[Explore Evidence-First AI Engineering Skills](https://github.com/gentian-hajdaraj/ai-engineering-skills)** — four open-source Agent Skills with examples, MIT license and automated validation. [Usage guide](https://github.com/gentian-hajdaraj/ai-engineering-skills#quick-start).
 
 ### Areas of interest
 
