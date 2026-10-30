@@ -1,0 +1,25 @@
+name: Validate public Agent Skills
+on:
+  pull_request:
+    paths:
+      - ".agents/skills/**"
+      - "AI-ENGINEERING-SKILLS.md"
+      - "README.md"
+      - ".github/workflows/validate-agent-skills.yml"
+  push:
+    paths:
+      - ".agents/skills/**"
+      - "AI-ENGINEERING-SKILLS.md"
+      - "README.md"
+      - ".github/workflows/validate-agent-skills.yml"
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: node .agents/skills/validate.mjs
